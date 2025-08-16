@@ -1,32 +1,36 @@
-# Styles & Signs Starter Code
+# 👗 Fashion Image Recognition  
 
-This is a place for you to start building your Styles and Signs Project!
-
-
-
-###  Attributions
-*If you used any code, stories, or poems from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own. 
-- Fashion MNIST dataset source: https://www.kaggle.com/datasets/zalando-research/fashionmnist
+A starter project that explores how machines can **recognize clothing items** from images using the **Fashion-MNIST dataset**. This repo provides scrambled starter code, balanced sample CSVs, and environment files so you can practice assembling, running, and extending an image recognition pipeline.  
 
 ---
 
-## File Overview
+## ✨ Features  
 
-### ← README.md
+-  **Balanced Data Samples**: Includes `fashion_mnist_20bal_train.csv` and `fashion_mnist_20bal_test.csv` with 20 examples per class.  
+-  **Starter Code**: `main.py` with cut-here markers — practice piecing code blocks together into a runnable program.  
+-  **Utility Setup**: Poetry and pip support for smooth dependency management.  
+-  **Cloud Ready**: `replit.nix` for quick execution in Replit.  
+-  **Extendable**: Build your own models, add arguments, or visualize predictions.  
 
-README.md file give you more documentation and information about a program. They are super helpful for describing what a program should do, any issues you've encountered, changes you want to make, and more. 
+---
 
-### ← main.py
-This is your main program. The code does not work as it is, because you have to unscramble it and put the pieces in the correct order. The comments 
-```
-# 8<------------ cut here ---------------
-```
-tell you where to cut for each piece.
+## 📊 About the Data  
 
+- Dataset: **Fashion-MNIST**   
+- Source: Zalando Research  
+- Format: 28×28 grayscale images, 10 fashion categories  
+- Purpose: Designed as a modern replacement for MNIST digits, challenging models with real-world style recognition.  
 
+---
 
-### ← sign_mnist_20bal_test.csv
-This is a comma separated (CSV) formatted file containing a test portion from a balanced sample of 20 images from each class in the FashionMNIST dataset.
+## 🧩 Extensions & Tools Used  
 
-### ← fashion_mnist_20bal_train.csv
-This is a comma separated (CSV) formatted file containing a training portion a balanced sample of 20 images from each class in the FashionMNIST dataset.
+- **Python 3**   
+- **Poetry**  – dependency & environment manager  
+- **pip + virtualenv**  – alternate installation method  
+- **Replit**  – browser-based coding environment (`replit.nix` included)  
+- **CSV files**  – lightweight training & testing data subsets  
+
+---
+
+👩‍💻 Maintained by **Sanjana Sunkara**  
